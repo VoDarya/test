@@ -1,5 +1,5 @@
 # test
-This _is_ my gitHub *experiment*.
+This _is_ my gitHub experiment.
 
 second commit
 
