@@ -91,7 +91,6 @@ class matrix:
                 res.value[j][i] = self.value[i][j]
         return res
     
-    # Thanks to Ernesto P. Adorio for use of Cholesky and CholeskyInverse functions
     
     def Cholesky(self, ztol=1.0e-5):
         # Computes the upper triangular Cholesky factorization of
@@ -137,9 +136,6 @@ class matrix:
     
     def __repr__(self):
         return repr(self.value)
-
-
-
 
 
 def kalman_filter(x, P):
